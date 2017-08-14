@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mongo Search</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <a href="" class="navbar-brand">MongoDB Search</a>
+    </div>
+</nav>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6 col-lg-offset-3">
+                <input type="text" name="search" placeholder="search" class="form-control">
+        </div>
+        <div id="display" class="col-lg-6 col-lg-offset-3">
+            <script id="template" type="text/template">
+                <hr>
+                <h1>Name {{name}}</h1>
+                <h2>Age {{age}}</h2>
+                <h3>Job {{job}}</h3>
+                <hr>
+</script>
+        </div>
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
